@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); /*Passion One*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /*Sriracha*/
+
+
+:root {
+    --font-default: Verdana, Geneva, Tahoma, sans-serif;
+    --font-sriracha: 'Sriracha', cursive, sans-serif;
+    --font-passion-one: 'Passion One', sans-serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,6 +19,7 @@
 html, body {
     min-height: 100vh;
     background-color: #a1a1a1;
+    font-family: var(--font-default);
 }
 
 header {
